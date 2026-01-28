@@ -12,6 +12,11 @@
     {
         switch (sign)
         {
+            case SIGN.DIVIDE:
+                if (arg2 == 0)
+                    throw new DivideByZeroException();
+                return arg1 / arg2;
+
             default:
                 break;
         }
