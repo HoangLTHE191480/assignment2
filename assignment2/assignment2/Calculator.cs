@@ -12,6 +12,9 @@
     {
         switch (sign)
         {
+            case SIGN.MINUS:
+                return arg1 - arg2;
+
             default:
                 break;
         }
