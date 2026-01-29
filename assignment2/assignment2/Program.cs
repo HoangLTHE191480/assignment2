@@ -12,6 +12,9 @@
     {
         switch (sign)
         {
+            case SIGN.MULTIPLY:
+                return arg1 * arg2;
+
             default:
                 return 0d;
         }
