@@ -12,6 +12,9 @@
     {
         switch (sign)
         {
+            case SIGN.DIVIDE:
+                return arg2 == 0 ? 0 : arg1 / arg2;
+
             default:
                 return 0d;
         }
